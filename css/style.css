@@ -187,6 +187,7 @@ footer {
     /* ---- Navigation ---- */
   .main-nav {
     text-align: center;
+    padding-bottom: 40px;
   }
 
   .main-nav li {
