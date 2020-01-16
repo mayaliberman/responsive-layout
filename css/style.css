@@ -88,6 +88,11 @@ p {
   background-color: #fafafa;
 }
 
+ img {
+  /* border: 1px solid black; */
+    box-shadow: inset -1px -1px 3px 3px whitesmoke;
+    padding: 10px;
+}
 .intro-text {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -222,6 +227,7 @@ footer {
 
   .profile-image {
     width: 70%;
+    
   }
 
   .intro-text {
@@ -247,12 +253,14 @@ footer {
   }
   .back-to-top {
     display: none;
+    
   }
 
   .footer-nav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    font-family: 'Alata', sans-serif;
   }
   .footer nav {
     padding: 0;
@@ -289,6 +297,7 @@ footer {
 
   .intro-text {
     text-align: left;
+    font-size: 1.3rem;
     padding-left: 0;
     padding-right: 20%;
     margin-top: 0;
