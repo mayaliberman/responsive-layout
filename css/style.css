@@ -212,6 +212,22 @@ footer {
     padding-top: 0;
     padding-bottom: 0;
   }
+
+  .intro {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding: 20px 5% 40px 5%;
+  }
+
+  .profile-image {
+    width: 70%;
+  }
+
+  .intro-text {
+    font-size: 1em;
+    text-align: left;
+  }
   /* ---- Portfolio ---- */
   .portfolio-gallery {
     display: flex;
@@ -269,12 +285,7 @@ footer {
     text-align: right;
   }
 
-  .intro {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 100%;
-    padding: 60px 5% 40px 5%;
-  }
+  
 
   .intro-text {
     text-align: left;
