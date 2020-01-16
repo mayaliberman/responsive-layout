@@ -6,78 +6,147 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Alata|Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <title>Maya Liberman</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header" id="home">
       <h1 class="name">Maya Liberman</h1>
-      <nav class="main-nav">
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+      <nav>
+        <ul class="main-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
+      <div class="intro">
+        <img src="images/responsive-layout-profile.png" alt="profile image" />
+        <p class="intro-text">
+          Hi! I'm a front-end developer who loves responsive design and css. I
+          recently fininshed learning front-end web development at Treehouse and
+          am excited to put all my skills to use!
+        </p>
+      </div>
     </header>
-    <div class="main-container">
+    <div class="main-container" id="portfolio">
       <h2 class="portfolio-title">Portfolio</h2>
       <div class="portfolio-gallery">
         <div class="project">
-          <img src="./mockups/responsive-website_desktop1024.png"/>
+          <img
+            class="protfolio-image"
+            src="./images/portfolio-1.png"
+            alt="marketing page image"
+          />
           <h3>
             Marketing Page
           </h3>
-          <p>This project shows the front page of a marketing website meant for a specific business I'm interest in.</p>
+          <p>
+            This project shows the front page of a marketing website meant for a
+            specific business I'm interest in.
+          </p>
         </div>
         <div class="project">
-          <img />
+          <img
+            class="protfolio-image"
+            src="./images/portfolio-2.png"
+            alt="Search page image"
+          />
           <h3>
             Search Page
           </h3>
-          <p>This project searches trhough a specific database to find information that the user is trying to look up.</p>
+          <p>
+            This project searches trhough a specific database to find
+            information that the user is trying to look up.
+          </p>
         </div>
         <div class="project">
-          <img />
+          <img
+            class="protfolio-image"
+            src="./images/portfolio-3.png"
+            alt="Travel app image"
+          />
           <h3>
-           Travel App
+            Travel App
           </h3>
-          <p>This project compared travle times based on different transportation methods and tells you that best one.</p>
+          <p>
+            This project compared travle times based on different transportation
+            methods and tells you that best one.
+          </p>
         </div>
         <div class="project">
-          <img />
+          <img
+            class="protfolio-image"
+            src="./images/portfolio-4.png"
+            alt="Mapt of favorite spots image"
+          />
           <h3>
-           Map of Favorite Spots
+            Map of Favorite Spots
           </h3>
-          <p>This project uses mapping apis to plot points for my favorite spots in the city for a do-it youself walking tour.</p>
+          <p>
+            This project uses mapping apis to plot points for my favorite spots
+            in the city for a do-it youself walking tour.
+          </p>
         </div>
         <div class="project">
-          <img />
+          <img
+            class="protfolio-image"
+            src="./images/portfolio-5.png"
+            alt="photo gallery image"
+          />
           <h3>
-           Photo Gallery
+            Photo Gallery
           </h3>
-          <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+          <p>
+            This project shows pictures from a recent trip to the viewer and
+            allows them to easily navigate through photos.
+          </p>
         </div>
         <div class="project">
-          <img />
+          <img
+            class="protfolio-image"
+            src="./images/portfolio-6.png"
+            alt="calculator image"
+          />
           <h3>
             Calculator
           </h3>
-          <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+          <p>
+            Someone can enter in the numbers they want, and press the big blue
+            button and get the result.
+          </p>
         </div>
       </div>
-      <div class="contact">
-          <h2>Contact</h2>
-          <p>If you're interested chatting or want more information about what I've beeng working on, I'd love to hear from you!</p>
-          <address>
-            Phone <a href="tel:+972548364366">+972(54)8364366</a>
-            Email <a href="mailto:mayaliberman1@gmail.com">mayaliberman1@gmail.com</a>  
-          </address>
+      <div class="contact" id="contact">
+        <h2 class="contact-title">Contact</h2>
+        <p>
+          If you're interested chatting or want more information about what I've
+          beeng working on, I'd love to hear from you!
+        </p>
+        <address>
+          <p>Phone: <a href="tel:+972548364366">+972(54)8364366</a></p>
+          <p>
+            Email:
+            <a href="mailto:mayaliberman1@gmail.com">mayaliberman1@gmail.com</a>
+          </p>
+        </address>
       </div>
     </div>
     <footer class="footer">
-        <h4 class="name-footer">Maya Liberman</h4>
-      <nav class="main-nav">
-        <a href="#">Home</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
+      <a class="name-footer">Maya Liberman</a>
+      <a class="back-to-top" href="#home">Back to top</a>
+      <nav>
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </footer>
   </body>

@@ -1,3 +1,224 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #b4b4b4;
+  font-family: 'Varela Round', sans-serif;
+  color: #939393;
+  background-color: white;
+  padding-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Alata', sans-serif;
+  color: #4a4a4a;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+h3 {
+  padding-top: 25px;
+}
+
+/* unvisited link */
+a:link {
+  color: #4a4a4a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* visited link */
+a:visited {
+  color: #4a4a4a;
+  /* color: #6DD3CE; */
+}
+
+/* mouse over link */
+a:hover {
+  color: #6dd3ce;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  /* max-width: 100%; */
+}
+
+p {
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  line-height: 1.5em;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+/* ---- Header ---- */
+.main-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fafafa;
+}
+
+.intro-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.name {
+  line-height: 2;
+}
+
+/* ---- Navigation ---- */
+
+.main-nav {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.main-nav li {
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+/* ---- Main Content ---- */
+
+.main-container {
+  margin: 0 auto;
+  padding-top: 40px;
+  /* padding-bottom: 40px; */
+}
+
+.portfolio-gallery {
+  background-color: white;
+}
+.portfolio-title {
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.project {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.project p {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+/* ---- contact ---- */
+.contact {
+  background-color: #fafafa;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.contact p {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.contact address {
+  display: block;
+  font-style: normal;
+  border-bottom: 1.5px solid #e7ebea;
+  padding-bottom: 40px;
+}
+/* ---- footer ---- */
+footer {
+  background-color: #fafafa;
+  padding: 40px 5%;
+  font-weight: bold;
+}
+
+.back-to-top {
+  float: right;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-family: 'Alata', sans-serif;
+  padding-bottom: 10px;
+}
+
+.name-footer {
+  float: left;
+  font-size: 1.25em;
+  font-family: 'Alata', sans-serif;
+  padding-bottom: 10px;
+}
+
+.footer-nav {
+  display: none;
+}
+
+@media (min-width: 769px) {
+
+   
+  .main-header {
+    background-color: #fafafa;
+  }
+  .main-nav {
+    text-align: center;
+  }
+
+  .main-nav li {
+    background-color: #fafafa;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .portfolio-gallery {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .project {
+     max-width: 50%;
+  }
+ .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  .back-to-top {
+    display: none;
+  }
+
+  .footer-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+  }
+.footer nav {
+  padding: 0;
+}
+  .footer-nav li {
+    padding-left: 20px;
+    padding-bottom: 0px;
+  }
+
+  .name-footer {
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+  }
+
+ 
 }
