@@ -113,6 +113,10 @@ p {
 
 /* ---- Main Content ---- */
 
+.image-profile, .protfolio-image {
+  box-shadow: inset -1px -1px 3px 3px whitesmoke;
+  padding: 10px;
+}
 .main-container {
   margin: 0 auto;
   padding-top: 40px;
